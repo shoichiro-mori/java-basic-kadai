@@ -6,7 +6,7 @@ public class Price_Chapter08 {
 		// TODO 自動生成されたメソッド・スタブ
 
 		int userAge = 30;
-		int serviceCost = 3000;
+		int serviceCost;
 		
 		switch (userAge) {
 		case 10 : 
