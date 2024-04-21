@@ -4,14 +4,14 @@ public class DictionaryExec_Chapter21 {
 	
 	public static void main(String[] args) {
 		
-		Dictionary_Chapter20 fruitsSe = new Dictionary_Chapter20();
+		Dictionary_Chapter20 dictionary = new Dictionary_Chapter20();
 		
-		String[] words = new String[] {"apple"};
+		dictionary.createDictionary();
 		
-		fruitsSe.fruitsUp("apple");
-		
-		
-		
+		dictionary.seachDictionary("apple");
+		dictionary.seachDictionary("banana");
+		dictionary.seachDictionary("grape");
+		dictionary.seachDictionary("orange");
 	}
 
 }
